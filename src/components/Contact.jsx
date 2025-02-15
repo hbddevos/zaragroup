@@ -3,12 +3,12 @@ export default function Contact() {
   return (
 
 
-<section className="bg-white dark:bg-gray-900">
+<section className="">
     <div className="container px-6 py-12 mx-auto">
         <div>
             <p className="font-medium text-blue-500 dark:text-blue-400">Nous contacter</p>
 
-            <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Discutez avec nous</h1>
+            <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-4xl sm:text-3xl  lg:text-6xl md:tracking-tight font-bold">Discutez avec nous</h1>
 
             <p className="mt-3 text-gray-500 dark:text-gray-400">Nous sommes a votre disposition pour vos plaintes. Envoyer nous un mail.</p>
         </div>
@@ -22,7 +22,7 @@ export default function Contact() {
                         </svg>
                     </span>
 
-                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Email</h2>
+                    <h2 className="mt-4 text-base font-medium ">Email</h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Nous écrire en cas de question ou d'information</p>
                     <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">hello@test.com</p>
                 </div>
@@ -35,7 +35,7 @@ export default function Contact() {
                         </svg>
                     </span>
                     
-                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Bureau physique</h2>
+                    <h2 className="mt-4 text-base font-medium ">Bureau physique</h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Nous sommes situés bla bla</p>
                     <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">Nous rejoindre</p>
                 </div>
@@ -48,7 +48,7 @@ export default function Contact() {
                         </svg>
                     </span>
                     
-                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Nos Horaires</h2>
+                    <h2 className="mt-4 text-base font-medium ">Nos Horaires</h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Nous travaillons pour vous en tout temps</p>
                     <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">24H/7J</p>
                 </div>
@@ -60,34 +60,34 @@ export default function Contact() {
                         </svg>
                     </span>
                     
-                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Phone</h2>
+                    <h2 className="mt-4 text-base font-medium ">Phone</h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Lunidi au vendredi de 8h à 17h.</p>
                     <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">+228 98754412</p>
                 </div>
             </div>
 
-            <div className="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
+            <div className="p-4 py-6 rounded-lg bg-gray-50  md:p-8">
                 <form>
                     <div className="-mx-2 md:items-center md:flex">
                         <div className="flex-1 px-2">
-                            <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Nom</label>
-                            <input type="text" placeholder="John " className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                            <label className="block mb-2 text-sm text-gray-600">Nom</label>
+                            <input type="text" placeholder="John " className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                         </div>
 
                         <div className="flex-1 px-2 mt-4 md:mt-0">
-                            <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Prénom</label>
-                            <input type="text" placeholder="Doe" className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                            <label className="block mb-2 text-sm text-gray-600">Prénom</label>
+                            <input type="text" placeholder="Doe" className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                         </div>
                     </div>
 
                     <div className="mt-4">
-                        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email</label>
-                        <input type="email" placeholder="johndoe@example.com" className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                        <label className="block mb-2 text-sm text-gray-600">Email</label>
+                        <input type="email" placeholder="johndoe@example.com" className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                     </div>
 
                     <div className="w-full mt-4">
-                        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
-                        <textarea className="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
+                        <label className="block mb-2 text-sm text-gray-600">Message</label>
+                        <textarea className="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-56 dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
                     </div>
 
                     <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">

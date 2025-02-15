@@ -35,25 +35,25 @@ const Navbar = () => {
                 href="#_"
                 className="inline-block w-full py-2 mx-0 ml-6 font-medium text-left text-black md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center"
               >
-                Home
+                Accueil
               </a>
               <a
                 href="#_"
                 className="inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-black lg:mx-3 md:text-center"
               >
-                Features
+                Apropos
               </a>
               <a
                 href="#_"
                 className="inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-black lg:mx-3 md:text-center"
               >
-                Blog
+                Misssion
               </a>
               <a
                 href="#_"
                 className="inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-black lg:mx-3 md:text-center"
               >
-                Contact
+                Services
               </a>
               <a
                 href="#_"
@@ -72,7 +72,7 @@ const Navbar = () => {
                 </svg>
               </a>
             </div>
-            <div className="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0">
+            {/* <div className="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0">
               <a
                 href="#"
                 className="w-full px-6 py-2 mr-0 text-gray-700 md:px-3 md:mr-2 lg:mr-3 md:w-auto"
@@ -85,7 +85,7 @@ const Navbar = () => {
               >
                 Sign Up
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div

@@ -32,9 +32,9 @@ export default function Faq() {
   };
 
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-gray-50">
       <div className="container px-6 py-10 mx-auto">
-        <h1 className="text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white">
+        <h1 className="text-2xl font-semibold  lg:text-3xl">
           FAQ's
         </h1>
 
@@ -80,7 +80,7 @@ export default function Faq() {
                   
                 )}
 
-                <h1 className="mx-4 text-xl text-gray-700 dark:text-white select-none group-hover:underline">
+                <h1 className="mx-4 text-xl select-none group-hover:underline">
                 {item.question}
                 </h1>
               </button>
@@ -89,7 +89,7 @@ export default function Faq() {
                 <div className="flex mt-8 md:mx-10">
                   <span className="border border-blue-500"></span>
 
-                  <p className="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+                  <p className="max-w-3xl px-4 text-gray-500 ">
                     {item.answer}
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Magni, eum quae. Harum officiis reprehenderit ex quia
@@ -112,7 +112,7 @@ export default function Faq() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="5" d="M12 4v16m8-8H4" />
                     </svg>
 
-                    <h1 className="mx-4 text-xl text-gray-700 dark:text-white">What can I expect at my first consultation ?</h1>
+                    <h1 className="mx-4 text-xl">What can I expect at my first consultation ?</h1>
                 </button>
             </div>
 
@@ -124,7 +124,7 @@ export default function Faq() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="5" d="M12 4v16m8-8H4" />
                     </svg>
 
-                    <h1 className="mx-4 text-xl text-gray-700 dark:text-white">What are your opening hours ?</h1>
+                    <h1 className="mx-4 text-xl">What are your opening hours ?</h1>
                 </button>
             </div>
 
@@ -136,7 +136,7 @@ export default function Faq() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="5" d="M12 4v16m8-8H4" />
                     </svg>
 
-                    <h1 className="mx-4 text-xl text-gray-700 dark:text-white">Do I need a referral ?</h1>
+                    <h1 className="mx-4 text-xl">Do I need a referral ?</h1>
                 </button>
             </div>
 
@@ -148,7 +148,7 @@ export default function Faq() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="5" d="M12 4v16m8-8H4" />
                     </svg>
 
-                    <h1 className="mx-4 text-xl text-gray-700 dark:text-white">Is the cost of the appointment covered by private health insurance ?</h1>
+                    <h1 className="mx-4 text-xl">Is the cost of the appointment covered by private health insurance ?</h1>
                 </button>
             </div> */}
         </div>

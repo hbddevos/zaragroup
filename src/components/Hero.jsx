@@ -1,3 +1,12 @@
+import Drapeau from "./Drapeau";
+const items = [
+  "drapeaux/togo.jpg",
+  "drapeaux/bf.jpg",
+  "drapeaux/chine.jpg",
+  "drapeaux/european.jpg",
+  "drapeaux/ci.jpg",
+  "drapeaux/uea.jpg",
+];
 const Hero = () => {
   return (
     <div className="max-w-sm py-32 mx-auto mt-px text-left sm:max-w-md px-4 md:max-w-none md:text-center bg-[url('images/header.jpg')] bg-no-repeat bg-cover">
@@ -27,7 +36,8 @@ const Hero = () => {
           </a>
         </span>
       </div>
-      <section className="bg-gray-300 pt-7 pb-14">
+      <Drapeau items={items} speed={10} />
+      {/* <section className="bg-gray-300 pt-7 pb-14">
         <div className="container px-8 mx-auto sm:px-12 lg:px-20">
           <h1 className="text-sm font-bold tracking-wide text-center text-gray-800 uppercase mb-7">
             Nos Pays partenaire d'affaires
@@ -77,7 +87,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

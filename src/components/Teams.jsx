@@ -3,8 +3,8 @@
 export default function Teams() {
   return (
     
-    <section className="bg-white dark:bg-gray-900">
-    <h2 className="text-white text-4xl font-bold">Notre Equipes</h2>
+    <section className="">
+    <h2 className="text-4xl font-bold sm:text-6xl md:text-6xl lg:text-7xl md:tracking-tight">Notre Equipes</h2>
     <div className="container px-6 py-12 mx-auto">
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         <div>
@@ -23,11 +23,11 @@ export default function Teams() {
             />
           </svg>
 
-          <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+          <h1 className="mt-4 text-xl font-semibold">
             Des Experts
           </h1>
 
-          <p className="mt-2 text-gray-500 dark:text-gray-400">
+          <p className="mt-2 text-gray-500">
           Des experts en commerce international qui se plongerons sur votre
           dossier pour vous fournir de meilleurs conseils.
           </p>
@@ -49,11 +49,11 @@ export default function Teams() {
             />
           </svg>
 
-          <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+          <h1 className="mt-4 text-xl font-semibold">
             Négociateurs
           </h1>
 
-          <p className="mt-2 text-gray-500 dark:text-gray-400">
+          <p className="mt-2 text-gray-500">
           Des négociateur pour vous obtenir de meilleur conseils.
           </p>
         </div>
@@ -89,11 +89,11 @@ export default function Teams() {
             </defs>
           </svg>
 
-          <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+          <h1 className="mt-4 text-xl font-semibold">
             Juristes
           </h1>
 
-          <p className="mt-2 text-gray-500 dark:text-gray-400">
+          <p className="mt-2 text-gray-500">
           Des juristes partout dans le monde pour la solidité de vos contrat
           et la sécurité de vos transactions
           </p>

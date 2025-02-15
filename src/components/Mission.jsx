@@ -31,7 +31,7 @@ export default function Mission() {
     // </section>
 
     <>
-      <section className="h-auto bg-white">
+      <section className="h-auto mt-8 bg-gray-50">
         <div className="px-10 py-24 mx-auto max-w-7xl">
           <div className="w-full mx-auto text-left md:text-center">
             <h1 ref={titleRef} className="mb-6 text-5xl font-extrabold leading-none max-w-5xl mx-auto tracking-normal text-gray-900 sm:text-6xl md:text-6xl lg:text-7xl md:tracking-tight">
