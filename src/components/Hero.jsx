@@ -4,7 +4,7 @@
 
 const Hero = () => {
   return (
-    <div className="max-w-sm py-32 mx-auto mt-px text-left sm:max-w-md px-4 md:max-w-none md:text-center" style={{backgroundImage: "url('images/hero.jpg')", backgroundRepeat: "no-repeat", backgroundSize: "center", backgroundColor: "rgba(0,0,0,0.5)",backgroundBlendMode:'overlay' ,backgroundPosition: "center"}}>
+    <div className="max-w-sm py-32 mx-auto mt-px text-left sm:max-w-md px-4 md:max-w-none md:text-center" style={{backgroundImage: "url('images/hero.jpg')", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundColor: "rgba(0,0,0,0.5)",backgroundBlendMode:'overlay' ,backgroundPosition: "center"}}>
       <h1 className="text-3xl font-bold leading-10 tracking-tight text-center text-white  sm:text-4xl md:text-8xl lg:text-9xl">
         Zara Group <br className="sm:block" />
         <span className="text-2xl md:text-6xl font-medim -mt-2">Vos Yeux Dans Le Monde Des Affaires</span>
