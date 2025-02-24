@@ -3,7 +3,7 @@ export default function Portefolio() {
   return (
     <section className="">
     <div className="container px-6 py-10 mx-auto">
-        <h1 className="text-4xl font-semibold text-center  capitalize sm:text-6xl md:text-6xl lg:text-7xl md:tracking-tight">Portfolio
+        <h1 className="text-4xl font-semibold text-center  capitalize sm:text-6xl md:text-6xl lg:text-7xl md:tracking-tight">Gallery Bento box
         </h1>
 
         <p className="mt-4 text-center text-gray-500 ">

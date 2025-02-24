@@ -3,8 +3,8 @@
 export default function Teams() {
   return (
     
-    <section className="">
-    <h2 className="text-4xl font-bold sm:text-6xl md:text-6xl lg:text-7xl md:tracking-tight">Notre Equipes</h2>
+    <section className="px-2">
+    <h2 className="text-4xl font-bold sm:text-6xl md:text-6xl lg:text-7xl md:tracking-tight text-center mb-6">Notre Equipes</h2>
     <div className="container px-6 py-12 mx-auto">
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         <div>
