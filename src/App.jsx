@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 import Faq from "./components/Faq";
 import Vision from "./components/Vision";
 import Drapeau from "./components/Drapeau";
-import SolidBento from "./components/Beto";
+import SolidBento from "./components/Bento";
 import Top from "./components/Top";
 
 const items = [
