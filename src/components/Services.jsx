@@ -17,6 +17,19 @@ export default function Services() {
 
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
           <Service
+            className="bg-blue-300"
+            texte="Nous achetons et revendon des produits, ou vous
+                mettons en relation avec des acheteurs ou encore nous occupons de vos achats des produits locaux."
+            titre="Vente de produit locaux"
+            image="images/local.png"
+          />
+          <Service
+            className="bg-blue-300"
+            texte="Nous nous occupons de tout pour vous concernant vos achats a l'international. La seule chose chose que vous ayez a faire est de passer la commande de votre et nous nous occupons du reste. Et vous livrons après paiement."
+            titre="Representation"
+            image="images/representation.png"
+          />
+          <Service
             texte="Nous vous trouvons des fournisseur en
                 chine ,UAE, Europe"
             titre="Recherche de Fournisseur"
@@ -30,7 +43,7 @@ export default function Services() {
           />
           <Service
             texte="Nous vous trouvons des fournisseur en
-                chine ,UAE, Europe"
+                chine ,UAE, Europe."
             titre="Cargo"
             image="images/cargo.png"
           />
@@ -42,7 +55,7 @@ export default function Services() {
           />
           <Service
             texte="Nous vous trouvons des fournisseur en
-                chine ,UAE, Europe"
+                chine ,UAE, Europe."
             titre="Conseils"
             image="images/conseil.png"
           />

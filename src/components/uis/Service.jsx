@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
-export default function Service({ texte, titre, image }) {
+export default function Service({ texte, titre, image, className }) {
   return (
-    <div className="flex flex-col items-center pb-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-100">
+    <div className={`${className} flex flex-col items-center pb-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-100`}>
       <img
         className="object-contain w-full h-44 rounded-t-xl group-hover:scale-105"
         src={image}

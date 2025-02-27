@@ -20,13 +20,13 @@ const blogs = [
   },
   {
     id: 4,
-    title: "Representation",
-    image: "images/img5.jpg",
+    title: "vente",
+    image: "images/soja.jpg",
   },
   {
     id: 5,
-    title: "Representation",
-    image: "images/cargo.jpg",
+    title: "vente",
+    image: "images/mais.jpg",
   },
 ];
 
