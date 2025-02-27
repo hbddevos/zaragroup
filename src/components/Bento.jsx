@@ -1,5 +1,7 @@
 // use client
 
+import {motion} from "framer-motion";
+
 import { useState, useEffect } from "react";
 
 const blogs = [
@@ -11,7 +13,7 @@ const blogs = [
   {
     id: 2,
     title: "Representation",
-    image: "images/img3.jpg",
+    image: "images/voiture.jpg",
   },
   {
     id: 3,
@@ -40,7 +42,17 @@ export default function SolidBento() {
   if (!mounted) return null;
 
   return (
-    <div className="max-sm:mb-[1050px] md:mb-10">
+    <motion.div
+      className="max-sm:mb-[1050px] md:mb-10"
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      whileInView={{
+        opacity: 1,
+        transition: { duration: 1, delay: 0.2 },
+        y: 0,
+      }}
+    >
       <h1 className="text-4xl font-bold text-center mt-24 mb-14 capitalize sm:text-6xl md:text-6xl lg:text-7xl md:tracking-tight">
         Gallery
       </h1>
@@ -63,10 +75,9 @@ export default function SolidBento() {
               className="transition-all duration-300 group-hover:scale-110  object-cover w-full"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-           
           </a>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 }

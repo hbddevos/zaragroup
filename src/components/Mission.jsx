@@ -1,16 +1,28 @@
 import { useRef } from "react";
+import { motion } from "framer-motion";
 import useAnimatedText from "../hooks/useAnimetedText";
 
 export default function Mission() {
-
   const titleRef = useRef(null);
   useAnimatedText(titleRef, { stagger: 80, threshold: 0.2 });
   return (
-    <>
+    <motion.section
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      whileInView={{
+        opacity: 1,
+        transition: { duration: 1, delay: 0.2 },
+        y: 0,
+      }}
+    >
       <section id="mission" className="h-auto mt-8 bg-gray-50">
         <div className="px-10 py-24 mx-auto max-w-7xl">
           <div className="w-full mx-auto text-left md:text-center">
-            <h1 ref={titleRef} className="mb-6 text-5xl font-extrabold leading-none max-w-5xl mx-auto tracking-normal text-gray-900 sm:text-6xl md:text-6xl lg:text-7xl md:tracking-tight">
+            <h1
+              ref={titleRef}
+              className="mb-6 text-5xl font-extrabold leading-none max-w-5xl mx-auto tracking-normal text-gray-900 sm:text-6xl md:text-6xl lg:text-7xl md:tracking-tight"
+            >
               {" "}
               Notre{" "}
               <span className="w-full text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 lg:inline">
@@ -21,8 +33,8 @@ export default function Mission() {
             <p className="px-0 mb-6 text-xl text-gray-600 md:text-2xl lg:px-24">
               {" "}
               Votre satisfaction est notre objectif. Le plus important pour nous
-              c&#39;est de vous faciliter l&apos;accès aux marchés internationaux a
-              tous.{" "}
+              c&#39;est de vous faciliter l&apos;accès aux marchés
+              internationaux a tous.{" "}
             </p>
           </div>
         </div>
@@ -36,10 +48,11 @@ export default function Mission() {
             </h1>
             <p className="mt-4 text-xl">
               En seulement deux (02) ans nous avons accompagné plus de 120
-              entrepreneurs et commerçant dans leur opérations d&apos;import-export
-              partout dans le monde.nous sommes votre guide complet d`envoie de
-              ou vers togo , Burkina Faso, cote d`ivoire. nous dénichons pour
-              vous des marchandises ,des marchés adapté à vos besoins
+              entrepreneurs et commerçant dans leur opérations
+              d&apos;import-export partout dans le monde.nous sommes votre guide
+              complet d`envoie de ou vers togo , Burkina Faso, cote d`ivoire.
+              nous dénichons pour vous des marchandises ,des marchés adapté à
+              vos besoins
             </p>
             <div className="grid gap-6 mt-8 sm:grid-cols-2">
               <div className="flex items-center -px-3 text-4xl">
@@ -91,7 +104,6 @@ export default function Mission() {
           />
         </div>
       </div>
-
-    </>
+    </motion.section>
   );
 }
