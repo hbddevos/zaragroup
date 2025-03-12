@@ -7,14 +7,14 @@ export default function Top() {
     e.preventDefault();
     setScroll(window.scrollY);
 
-    console.log(scroll);
+    // console.log(scroll);
   });
 
   function scrollToTop() {
     window.scrollTo(0, 0);
   }
 
-  console.log(scroll);
+  // console.log(scroll);
   return (
     <button
     title="Go to top"
