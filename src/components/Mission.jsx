@@ -6,7 +6,7 @@ export default function Mission() {
   const titleRef = useRef(null);
   useAnimatedText(titleRef, { stagger: 80, threshold: 0.2 });
   return (
-    <motion.section
+    <motion.section id="mission"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
@@ -16,7 +16,7 @@ export default function Mission() {
         y: 0,
       }}
     >
-      <section id="mission" className="h-auto mt-8 bg-gray-50">
+      <section  className="h-auto mt-8 bg-gray-50">
         <div className="px-10 py-24 mx-auto max-w-7xl">
           <div className="w-full mx-auto text-left md:text-center">
             <h1

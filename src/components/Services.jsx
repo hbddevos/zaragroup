@@ -5,7 +5,7 @@ import HeroPage from "./uis/HeroPage";
 export default function Services() {
   return (
     <>
-      <HeroPage titre_service="" />
+      {/* <HeroPage titre_service="" /> */}
       <motion.section
         id="services"
         className=""
@@ -35,7 +35,7 @@ export default function Services() {
 
           <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
             <Service
-              link="/services/service/1"
+              link="/services/1"
               className="bg-blue-300"
               texte="Nous achetons et revendon des produits, ou vous
                 mettons en relation avec des acheteurs ou encore nous occupons de vos achats des produits locaux."
@@ -43,41 +43,41 @@ export default function Services() {
               image="images/local.png"
             />
             <Service
-              link="/services/service/2"
+              link="/services/2"
               className="bg-blue-300"
               texte="Nous nous occupons de tout pour vous concernant vos achats a l'international. La seule chose chose que vous ayez a faire est de passer la commande de votre et nous nous occupons du reste. Et vous livrons après paiement."
               titre="Representation"
               image="images/representation.png"
             />
             <Service
-              link="/services/service/3"
+              link="/services/3"
               texte="Nous vous trouvons des fournisseur en
                 chine ,UAE, Europe"
               titre="Recherche de Fournisseur"
               image="images/fournisseur.png"
             />
             <Service
-              link="/services/service/4"
+              link="/services/4"
               texte="Nous vous assistons dans les procédure visa pour la chine ,l'Europe et UAE.
 "
               titre="Assistance visa"
               image="images/visa.png"
             />
             <Service
-              link="/services/service/5"
+              link="/services/5"
               texte="Nous vous accompagnons dans tout ce qui est incoterm,entreposage, assurance ,fret aérien,fret maritime ,fret routier .nous vous guarantissons la sécurisation de vos marchandises Jusqu'à votre destination
 "
               titre="Cargo"
               image="images/cargo.png"
             />
             <Service
-              link="/services/service/6"
+              link="/services/6"
               texte="Nous vous accompagnons dans le paiement de divers facture à l'international."
               titre="Transfert d'argent"
               image="images/argent.png"
             />
             <Service
-              link="/services/service/7"
+              link="/services/7"
               texte="nos expert et consultant se plongerons sur vos dossier pour vous ressortir des conseils adaptés à vos marchés."
               titre="Conseils"
               image="images/conseil.png"

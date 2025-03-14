@@ -1,7 +1,7 @@
 const services = [
   {
     id: 1,
-    link: "/services/service/1",
+    link: "/services/1",
     className: "bg-blue-300",
     titre: "Achat et vente de produits tropicaux",
     image: "mais.jpg",
@@ -14,13 +14,14 @@ const services = [
       "Mise en relation avec des acheteurs sérieux et fiables.",
       "Gestion complète de vos achats pour un processus simplifié.",
     ],
+    imagesServices : ['mais.jpg','haricot.jpg','ble.jpg','soja.jpg',],
     conclusion:
       "La solution est à portée de main. Cliquez ci-dessous pour accéder à nos services et répondre à vos besoins en produits tropicaux.",
   },
 
   {
     id: 2,
-    link: "/services/service/2",
+    link: "/services/2",
     className: "bg-blue-300",
     titre: "Représentation et achats internationaux",
     image: "representation.png",
@@ -33,12 +34,13 @@ const services = [
       "Réseau de partenaires fiables pour sécuriser vos transactions.",
       "Approvisionnement rapide et premium selon vos besoins.",
     ],
+    imagesServices : ['v1.jpg','v2.jpg','v3.jpeg','voiture.jpg'],
     conclusion:
       "Besoin de camions, moteurs, voitures, matériels industriels… ? Vous êtes au bon endroit. Cliquez ci-dessous et profitez d’une solution rapide et efficace pour tous vos achats internationaux.",
   },
   {
     id: 3,
-    link: "/services/service/3",
+    link: "/services/3",
     titre: "Recherche de fournisseurs",
     image: "fournisseur.png",
     texte:
@@ -50,13 +52,14 @@ const services = [
       "Mise en relation sécurisée et accompagnement dans les négociations.",
       "Optimisation de votre chaîne d'approvisionnement pour des achats sereins.",
     ],
+    imagesServices : ['f1.jpg','f2.jpg','f3.jpg','f4.jpg'],
     conclusion:
       "Vous ne savez pas par où commencer ? Cliquez ci-dessous, nous avons la solution à vos besoins.",
   },
 
   {
     id: 4,
-    link: "/services/service/4",
+    link: "/services/4",
     titre: "Assistance Visa",
     image: "visa.png",
     texte:
@@ -68,12 +71,13 @@ const services = [
       "🏨 Réservation d'hôtel et de billets d'avion pour faciliter votre demande.",
       "✅ Suivi et accompagnement personnalisé jusqu'à l'obtention de votre visa.",
     ],
+    imagesServices : [],
     conclusion:
       "Vous êtes entrepreneur, salarié, commerçant ou opérateur économique et vous rencontrez des difficultés pour obtenir un visa ? Cliquez ci-dessous et laissez-nous vous accompagner vers votre destination.",
   },
   {
     id: 5,
-    link: "/services/service/5",
+    link: "/services/5",
     titre: "Service Cargo",
     image: "cargo.png",
     texte:
@@ -85,12 +89,13 @@ const services = [
       "📦 Sécurisation totale de vos marchandises jusqu'à destination.",
       "📜 Accompagnement sur les Incoterms, l'entreposage et l’assurance.",
     ],
+    imagesServices : [],
     conclusion:
       "Avec Zara Group, vos marchandises arrivent intactes et dans les meilleurs délais. Cliquez ci-dessous et confiez-nous votre transport en toute sérénité.",
   },
   {
     id: 6,
-    link: "/services/service/6",
+    link: "/services/6",
     titre: "Transfert d'argent",
     image: "argent.png",
     texte:
@@ -102,12 +107,13 @@ const services = [
       "💱 Taux de change compétitifs pour optimiser vos transactions.",
       "⚡ Service rapide et fiable pour toutes vos opérations financières.",
     ],
+    imagesServices : [],
     conclusion:
       "Besoin d’effectuer un paiement ou un transfert d’argent à l’international ? Cliquez ci-dessous et profitez d’un service simple, rapide et efficace.",
   },
   {
     id: 7,
-    link: "/services/service/7",
+    link: "/services/7",
     texte:
       "Nos experts et consultants se plongeront sur vos dossiers pour vous ressortir des conseils adaptés à vos marchés.",
     titre: "Conseils",
@@ -119,6 +125,7 @@ const services = [
       "Recommandations adaptées : des solutions concrètes en phase avec vos objectifs.",
       "Accompagnement continu : un suivi et des ajustements en fonction de l’évolution de votre activité.",
     ],
+    imagesServices : [],
     conclusion:
       "Nous transformons les défis en opportunités et vous donnons les clés pour une croissance durable. Faites le choix d’un conseil expert pour optimiser vos performances et sécuriser votre avenir.",
   },

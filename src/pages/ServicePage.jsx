@@ -1,8 +1,7 @@
 import { useParams } from "react-router";
 import { getServiceById } from "../services/services_provider";
 import HeroPage from "../components/uis/HeroPage";
-import Service from "../components/uis/Service";
-import ImageGallery from "../components/ImageGallery";
+import GalleryService from "../components/GalleryService";
 
 function ServicePage() {
   let { id } = useParams();
@@ -44,7 +43,7 @@ function ServicePage() {
           </div>
         </div>
       </section>
-      <ImageGallery />
+      <GalleryService imagesServices={service.imagesServices} />
     </>
   );
 }

@@ -7,17 +7,21 @@ import ServicesPage from "./pages/ServicesPage.jsx";
 import Services from "./components/Services.jsx";
 import ServicePage from "./pages/ServicePage.jsx";
 
-createRoot(document.getElementById("root")).render(
-  // <StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
+// const router = createBrowserRouter
 
-        <Route path="/services" element={<ServicesPage />}>
-          <Route path="service/:id" element={<ServicePage />} />
-          <Route index element={<Services />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+
+createRoot(document.getElementById("root")).render(
+
+  // <StrictMode>
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+
+      <Route path="services" element={<ServicesPage />}>
+        <Route path=":id" element={<ServicePage />} />
+        <Route index element={<Services />} />
+      </Route>
+    </Routes>
+  </BrowserRouter>
   // </StrictMode>
 );

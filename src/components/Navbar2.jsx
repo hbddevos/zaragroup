@@ -1,9 +1,8 @@
-import { useState } from "react";
-import { Link } from "react-router";
+import {  useState } from "react";
 import { NavLink } from "react-router";
 
-const Navbar = () => {
-  
+const Navbar2 = () => {
+ 
   const [showMenu, setShowMenu] = useState(false);
 
   const [scroll, setScroll] = useState(0);
@@ -49,31 +48,31 @@ const Navbar = () => {
               >
                 Accueil
               </NavLink>
-              <Link
-                to="/#apropos"
+              <a
+                href="/#apropos"
                 className="inline-block w-full py-2 mx-0 text-left text-white text-xl font-semibold md:w-auto md:px-0 md:mx-2 hover:text-gray-400 hover:underline transition-all lg:mx-3 md:text-center"
               >
                 Apropos
-              </Link>
-              <Link
-                to="/#mission"
+              </a>
+              <a
+                href="/#mission"
                 className="inline-block w-full py-2 mx-0 text-left text-white text-xl font-semibold md:w-auto md:px-0 md:mx-2 hover:text-gray-400 hover:underline transition-all lg:mx-3 md:text-center"
               >
                 Misssion
-              </Link>
-              <Link
-                href="/#services"
+              </a>
+              <a
+                href="#services"
                 className="inline-block w-full py-2 mx-0 text-left text-white text-xl font-semibold md:w-auto md:px-0 md:mx-2 hover:text-gray-400 hover:underline transition-all lg:mx-3 md:text-center"
               >
                 Services
-              </Link>
+              </a>
              
-              <Link
-                href="/#contact"
+              <a
+                href="#contact"
                 className="inline-block w-full py-2 mx-0 text-left text-white text-xl font-semibold md:w-auto md:px-0 md:mx-2 hover:text-gray-400 hover:underline transition-all lg:mx-3 md:text-center"
               >
                 Contact
-              </Link>
+              </a>
              
             </div>
           
@@ -116,4 +115,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar2;
