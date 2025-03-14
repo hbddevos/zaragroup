@@ -1,6 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 // import Drapeau from "./Drapeau";
 
+import { NavLink } from "react-router";
+
 const Hero = () => {
   return (
     <div
@@ -35,12 +37,12 @@ const Hero = () => {
           </a>
         </span>
         <span className="relative inline-flex w-full md:w-auto">
-          <a
-            href="/services"
+          <NavLink
+            to="/services"
             className="inline-flex items-center justify-center w-full px-8 py-4 text-base font-medium leading-6 text-white bg-indigo-900 border border-transparent rounded-full xl:px-10 md:w-auto hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-800"
           >
             Services
-          </a>
+          </NavLink>
         </span>
       </div>
 
