@@ -16,7 +16,7 @@ const Navbar = () => {
   });
 
   return (
-    <nav className={`fixed w-full backdrop-blur-lg z-50 h-24 select-none px-4 md:px-8 top-0 ${scroll >= 30 ? 'bg-black/80 transition-all ease-in' : '' }`}>
+    <nav className={`fixed w-full backdrop-blur-lg z-50 h-24 select-none px-4 md:px-8 top-0 bg-black/80 ${scroll >= 30 ? 'bg-black/80 transition-all ease-in' : '' }`}>
       <div className="container  relative flex flex-wrap items-center justify-between h-24 mx-auto overflow-hidden font-medium border-b border-gray-200 md:overflow-visible lg:justify-center sm:px-4 md:px-2 lg:px-0">
         <div className="flex items-center justify-start w-1/4 h-full pr-4">
           <NavLink
@@ -61,15 +61,15 @@ const Navbar = () => {
               >
                 Misssion
               </Link>
-              <Link
-                href="/#services"
+              <NavLink
+                to="/services"
                 className="inline-block w-full py-2 mx-0 text-left text-white text-xl font-semibold md:w-auto md:px-0 md:mx-2 hover:text-gray-400 hover:underline transition-all lg:mx-3 md:text-center"
               >
                 Services
-              </Link>
+              </NavLink>
              
               <Link
-                href="/#contact"
+                to="/#contact"
                 className="inline-block w-full py-2 mx-0 text-left text-white text-xl font-semibold md:w-auto md:px-0 md:mx-2 hover:text-gray-400 hover:underline transition-all lg:mx-3 md:text-center"
               >
                 Contact

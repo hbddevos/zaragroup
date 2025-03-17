@@ -5,6 +5,8 @@ import HeroPage from "./uis/HeroPage";
 export default function Services() {
   return (
     <>
+      <div className="h-8"></div>
+
       {/* <HeroPage titre_service="" /> */}
       <motion.section
         id="services"
@@ -23,7 +25,7 @@ export default function Services() {
             Nos Services
           </h1>
 
-          <p className="max-w-2xl mx-auto my-6 text-center">
+          <p className="max-w-5xl mx-auto mb-10 mt-6 text-center text-base md:text-2xl text-gray-700">
             Nous vous offrons plusieurs services pour vous accompagner dans vos
             opérations d'import-export. Nous vous facilitons l'accès aux marchés
             internationaux. Nous vous accompagnons dans vos achats et ventes de
@@ -33,54 +35,54 @@ export default function Services() {
             conseil.
           </p>
 
-          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
+          <div className="grid grid-cols-1 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3 pt-20">
             <Service
               link="/services/1"
-              className="bg-blue-300"
+              className=""
               texte="Nous achetons et revendon des produits, ou vous
                 mettons en relation avec des acheteurs ou encore nous occupons de vos achats des produits locaux."
               titre="Vente de produit locaux"
-              image="images/local.png"
+              image="images/soja.jpg"
             />
             <Service
               link="/services/2"
               className="bg-blue-300"
               texte="Nous nous occupons de tout pour vous concernant vos achats a l'international. La seule chose chose que vous ayez a faire est de passer la commande de votre et nous nous occupons du reste. Et vous livrons après paiement."
               titre="Representation"
-              image="images/representation.png"
+              image="images/services/main.jpg"
             />
             <Service
               link="/services/3"
               texte="Nous vous trouvons des fournisseur en
                 chine ,UAE, Europe"
               titre="Recherche de Fournisseur"
-              image="images/fournisseur.png"
+              image="images/services/f5.jpg"
             />
             <Service
               link="/services/4"
               texte="Nous vous assistons dans les procédure visa pour la chine ,l'Europe et UAE.
 "
               titre="Assistance visa"
-              image="images/visa.png"
+              image="images/services/visa4.jpg"
             />
             <Service
               link="/services/5"
               texte="Nous vous accompagnons dans tout ce qui est incoterm,entreposage, assurance ,fret aérien,fret maritime ,fret routier .nous vous guarantissons la sécurisation de vos marchandises Jusqu'à votre destination
 "
               titre="Cargo"
-              image="images/cargo.png"
+              image="images/services/cont.jpg"
             />
             <Service
               link="/services/6"
               texte="Nous vous accompagnons dans le paiement de divers facture à l'international."
               titre="Transfert d'argent"
-              image="images/argent.png"
+              image="images/services/argent1.jpg"
             />
             <Service
               link="/services/7"
               texte="nos expert et consultant se plongerons sur vos dossier pour vous ressortir des conseils adaptés à vos marchés."
               titre="Conseils"
-              image="images/conseil.png"
+              image="images/services/conseil1.jpg"
             />
            
           </div>

@@ -13,16 +13,16 @@ function ServicePage() {
     <>
     
       <HeroPage titre_service={service.titre} serviceImage={service.image} />
-      <section className="max-sm:px-8 md:px-32 ">
+      <section className="max-sm:px-8 md:px-32 bg-white">
         <div>
-          <h2 className="text-[48px] leading-10 my-20 text-center">
+          <h2 className="text-[48px] md:text-7xl font-bold leading-10 my-20 text-center">
             {service.titre}
           </h2>
-          <p className="text-lg">{service.details}</p>
-          <div className="my-10 flex max-md:flex-col justify-between items-center">
+          <p className="text-xl text-pretty mb-24">{service.details}</p>
+          <div className="my-20 flex max-md:flex-col justify-between items-center">
             <div className="mr-7">
-              <h3 className="text-2xl font-bold">Comment ça fonctionne ?</h3>
-              <ul className="text-lg">
+              <h3 className="text-[48px] max-sm:text-center font-bold">Comment ça <br className="md:hidden"/> fonctionne ?</h3>
+              <ul className="text-xl">
                 {service.points_clés.map((pt) => (
                   <li key={service.id} className="list-decimal my-5">
                     {pt}
@@ -38,11 +38,12 @@ function ServicePage() {
               // srcSet="https://assets-global.website-files.com/63a43a1633ad3e2a969a6958/63b3c28493e49f9d97eb700a_service-single-image-1-p-500.jpg 500w, https://assets-global.website-files.com/63a43a1633ad3e2a969a6958/63b3c28493e49f9d97eb700a_service-single-image-1-p-800.jpg 800w, https://assets-global.website-files.com/63a43a1633ad3e2a969a6958/63b3c28493e49f9d97eb700a_service-single-image-1-p-1080.jpg 1080w, https://assets-global.website-files.com/63a43a1633ad3e2a969a6958/63b3c28493e49f9d97eb700a_service-single-image-1.jpg 1199w"
             />
           </div>
-          <div className="my-10 text-lg">
+          <div className="my-20 text-xl">
             <p>{service.conclusion}</p>
           </div>
         </div>
       </section>
+      {/* <div className="h-48"></div> */}
       <GalleryService imagesServices={service.imagesServices} />
     </>
   );

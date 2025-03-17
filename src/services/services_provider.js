@@ -2,7 +2,7 @@ const services = [
   {
     id: 1,
     link: "/services/1",
-    className: "bg-blue-300",
+    className: "bg-indigo-300",
     titre: "Achat et vente de produits tropicaux",
     image: "mais.jpg",
     texte:
@@ -24,7 +24,7 @@ const services = [
     link: "/services/2",
     className: "bg-blue-300",
     titre: "Représentation et achats internationaux",
-    image: "representation.png",
+    image: "services/main.jpg",
     texte:
       "Nous prenons en charge l’ensemble de vos achats à l’international. Passez votre commande, et nous nous occupons du reste selon les termes du contrat.",
     details:
@@ -42,7 +42,7 @@ const services = [
     id: 3,
     link: "/services/3",
     titre: "Recherche de fournisseurs",
-    image: "fournisseur.png",
+    image: "services/f5.jpg",
     texte:
       "Nous vous aidons à trouver des fournisseurs fiables en Chine, aux Émirats arabes unis (UAE) et en Europe.",
     details:
@@ -61,7 +61,7 @@ const services = [
     id: 4,
     link: "/services/4",
     titre: "Assistance Visa",
-    image: "visa.png",
+    image: "services/visa1.jpg",
     texte:
       "Nous vous assistons dans vos procédures de visa pour l'Europe, la Chine et les Émirats arabes unis (UAE).",
     details:
@@ -71,7 +71,8 @@ const services = [
       "🏨 Réservation d'hôtel et de billets d'avion pour faciliter votre demande.",
       "✅ Suivi et accompagnement personnalisé jusqu'à l'obtention de votre visa.",
     ],
-    imagesServices : [],
+    imagesServices : ['visa1.jpg','visa3.jpg','visa2.jpg','visa4.jpg'],
+
     conclusion:
       "Vous êtes entrepreneur, salarié, commerçant ou opérateur économique et vous rencontrez des difficultés pour obtenir un visa ? Cliquez ci-dessous et laissez-nous vous accompagner vers votre destination.",
   },
@@ -79,7 +80,7 @@ const services = [
     id: 5,
     link: "/services/5",
     titre: "Service Cargo",
-    image: "cargo.png",
+    image: "services/cargo5.jpg",
     texte:
       "Nous vous accompagnons dans le transport de vos marchandises par fret aérien, maritime et routier.",
     details:
@@ -89,7 +90,8 @@ const services = [
       "📦 Sécurisation totale de vos marchandises jusqu'à destination.",
       "📜 Accompagnement sur les Incoterms, l'entreposage et l’assurance.",
     ],
-    imagesServices : [],
+    imagesServices : ['cargo1.jpg','cargo2.jpg','cargo3.jpg','cargo4.jpg'],
+
     conclusion:
       "Avec Zara Group, vos marchandises arrivent intactes et dans les meilleurs délais. Cliquez ci-dessous et confiez-nous votre transport en toute sérénité.",
   },
@@ -97,7 +99,7 @@ const services = [
     id: 6,
     link: "/services/6",
     titre: "Transfert d'argent",
-    image: "argent.png",
+    image: "services/argent1.jpg",
     texte:
       "Nous vous accompagnons dans le paiement de diverses factures à l'international.",
     details:
@@ -107,7 +109,8 @@ const services = [
       "💱 Taux de change compétitifs pour optimiser vos transactions.",
       "⚡ Service rapide et fiable pour toutes vos opérations financières.",
     ],
-    imagesServices : [],
+    imagesServices : ['argent2.jpg','argent3.jpg','argent4.jpg','argent5.jpg'],
+
     conclusion:
       "Besoin d’effectuer un paiement ou un transfert d’argent à l’international ? Cliquez ci-dessous et profitez d’un service simple, rapide et efficace.",
   },
@@ -117,7 +120,7 @@ const services = [
     texte:
       "Nos experts et consultants se plongeront sur vos dossiers pour vous ressortir des conseils adaptés à vos marchés.",
     titre: "Conseils",
-    image: "conseil.png",
+    image: "services/conseil3.jpg",
     details:
       "Un accompagnement sur mesure pour des décisions stratégiques\n\nNos experts et consultants analysent en profondeur vos dossiers afin de vous fournir des conseils pertinents et personnalisés. Grâce à leur expertise sectorielle et à une approche rigoureuse, ils identifient les opportunités, anticipent les risques et vous orientent vers les meilleures décisions stratégiques.",
     points_clés: [
@@ -125,7 +128,8 @@ const services = [
       "Recommandations adaptées : des solutions concrètes en phase avec vos objectifs.",
       "Accompagnement continu : un suivi et des ajustements en fonction de l’évolution de votre activité.",
     ],
-    imagesServices : [],
+    imagesServices : ['conseil1.jpg','conseil2.jpg','conseil4.jpg','conseil5.jpg'],
+
     conclusion:
       "Nous transformons les défis en opportunités et vous donnons les clés pour une croissance durable. Faites le choix d’un conseil expert pour optimiser vos performances et sécuriser votre avenir.",
   },

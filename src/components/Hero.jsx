@@ -8,10 +8,10 @@ const Hero = () => {
     <div
       className="max-w-sm py-32 mx-auto mt-px text-left sm:max-w-md px-4 md:max-w-none md:text-center"
       style={{
-        backgroundImage: "url('images/hero.jpg')",
+        backgroundImage: "url('images/services/cont2.jpg')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        backgroundColor: "rgba(0,0,0,0.5)",
+        backgroundColor: "rgba(0,0,0,0.7)",
         backgroundBlendMode: "overlay",
         backgroundPosition: "center",
       }}

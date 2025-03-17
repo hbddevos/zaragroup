@@ -1,16 +1,16 @@
 function GalleryService({ imagesServices }) {
   return (
-    <div className="bg-white dark:bg-gray-800 h-screen h-full py-6 sm:py-8 lg:py-12">
+    <div className="bg-white h-screen py-6 sm:py-8 lg:py-12 relative bottom-0">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-        <div className="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
-          <div className="flex items-center gap-12">
-            <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white">
+        <div className="mb-4 gap-8 sm:mb-8 md:mb-12">
+          <div className="text-center">
+            <h2 className="text-[48px] font-bold text-gray-800">
               Gallery
             </h2>
 
-            <p className="hidden max-w-screen-sm text-gray-500 dark:text-gray-300 md:block">
+            {/* <p className="hidden max-w-screen-sm text-gray-500 dark:text-gray-300 md:block">
               Nos Preuves sociales
-            </p>
+            </p> */}
           </div>
 
           {/* <a
@@ -21,7 +21,7 @@ function GalleryService({ imagesServices }) {
           </a> */}
         </div>
 
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8 relative">
           <a
             href="#"
             className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"

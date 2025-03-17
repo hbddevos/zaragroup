@@ -9,6 +9,7 @@ function ServicesPage() {
       <Top />
       <Navbar />
       <Outlet />
+      <div className="h-48"></div>
       <Footer />
     </>
   );
