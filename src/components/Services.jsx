@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Service from "./uis/Service";
-import HeroPage from "./uis/HeroPage";
+// import HeroPage from "./uis/HeroPage";
 
 export default function Services() {
   return (
@@ -21,16 +21,24 @@ export default function Services() {
         }}
       >
         <div className="container px-6 py-10 mx-auto">
+          <div>
+            <a href="https://wa.me/+22891500937" className="flex">
+              <span>
+                <img src="/images/whatsapp.png" alt="" />
+              </span>
+              <span>Nous joindre</span>
+            </a>
+          </div>
           <h1 className="text-4xl font-bold text-center capitalize md:text-6xl lg:text-7xl mt-8">
             Nos Services
           </h1>
 
           <p className="max-w-5xl mx-auto mb-10 mt-6 text-center text-base md:text-2xl text-gray-700">
             Nous vous offrons plusieurs services pour vous accompagner dans vos
-            opérations d'import-export. Nous vous facilitons l'accès aux marchés
+            opérations d&apos;import-export. Nous vous facilitons l&apos;accès aux marchés
             internationaux. Nous vous accompagnons dans vos achats et ventes de
             produits locaux. Nous vous assistons dans vos démarches de visa et
-            de transfert d'argent. Nous vous trouvons des fournisseurs en chine,
+            de transfert d&apos;argent. Nous vous trouvons des fournisseurs en chine,
             UAE, Europe. Nous vous assistons dans les procédures de cargo et de
             conseil.
           </p>
@@ -84,7 +92,6 @@ export default function Services() {
               titre="Conseils"
               image="images/services/conseil1.jpg"
             />
-           
           </div>
         </div>
       </motion.section>

@@ -43,7 +43,7 @@ export default function SolidBento() {
 
   return (
     <motion.div
-      className="max-sm:mb-[1050px] md:mb-10"
+      className="max-sm:mb-[1050px] md:mb-10 max-lg:hidden"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}

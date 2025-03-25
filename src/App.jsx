@@ -12,6 +12,7 @@ import SolidBento from "./components/Bento";
 import Top from "./components/Top";
 import { useEffect } from "react";
 import Navbar2 from "./components/Navbar2";
+import Cta from "./components/Cta";
 
 const items = [
   { img: "drapeaux/togo.jpg", pays: "TOGO" },
@@ -53,6 +54,7 @@ function App() {
         <SolidBento />
         <Teams />
         <Faq />
+        <Cta />
         <Contact />
       </section>
       <Footer />

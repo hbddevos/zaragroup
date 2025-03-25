@@ -38,10 +38,10 @@ export default function Presentation() {
           {/* <!-- Button Container --> */}
           <div className="mt-8">
             <a
-              href="#"
+              href="#services"
               className="inline-block w-full text-center text-lg font-medium border-solid border-2 shadow-lg border-gray-600 py-4 px-10 hover:bg-indigo-500 hover:shadow-md md:w-64 rounded-xl transition-all hover:text-white"
             >
-              En savoir plus
+              Decouvrir nos servcies
             </a>
           </div>
         </div>

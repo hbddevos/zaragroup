@@ -9,7 +9,7 @@ function ServicesPage() {
       <Top />
       <Navbar />
       <Outlet />
-      <div className="h-48"></div>
+      <div className="max-sm:h-0 md:h-10"></div>
       <Footer />
     </>
   );
