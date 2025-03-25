@@ -21,14 +21,6 @@ export default function Services() {
         }}
       >
         <div className="container px-6 py-10 mx-auto">
-          <div>
-            <a href="https://wa.me/+22891500937" className="flex">
-              <span>
-                <img src="/images/whatsapp.png" alt="" />
-              </span>
-              <span>Nous joindre</span>
-            </a>
-          </div>
           <h1 className="text-4xl font-bold text-center capitalize md:text-6xl lg:text-7xl mt-8">
             Nos Services
           </h1>

@@ -14,16 +14,20 @@ export default function Service({ texte, titre, image, className, link }) {
             src={image}
             alt=""
           />
-          <a href="https://wa.me/+22891500937 " className="absolute bottom-0 bg-white px-8 m-1 rounded-lg z-30 hover:bg-blue-100">
+
+          <a
+            href="https://wa.me/+22891500937 "
+            className="absolute bottom-0 bg-white py-0 px-4 m-1 rounded-lg z-30 hover:bg-blue-100"
+          >
             <svg
             className="group"
               version="1.1"
               id="Icons"
               xmlns="http://www.w3.org/2000/svg"
               // xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="-19.52 -19.52 71.04 71.04"
-              height="64"
-              width="64"
+              viewBox="-32 -32 96.00 96.00"
+              height="48"
+              width="48"
               fill="#008000"
             >
               <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
